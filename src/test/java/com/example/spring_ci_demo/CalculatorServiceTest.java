@@ -15,6 +15,6 @@ public class CalculatorServiceTest {
 
     @Test
     void addnegativenumber(){
-        assertEquals(5, service.add(-2,-3));
+        assertEquals(-5, service.add(-2,-3));
     }
 }
